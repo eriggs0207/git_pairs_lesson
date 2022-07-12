@@ -14,6 +14,8 @@ class BankAccount
   end
 
   def withdraw(amount)
+    @balance = @balance - amount
+    #withdraw method
 
   end
 
